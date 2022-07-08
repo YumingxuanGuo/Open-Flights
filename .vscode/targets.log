@@ -1,0 +1,494 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri Jul  8 08:08:34 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `cs225/make/cs225.mk', line 86)
+ccyellow = $(shell echo -e "\033[0;33m")
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.5.0
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `Makefile', line 1)
+EXE = main
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/yumingxuanguo/GitHub/Open-Flights
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `cs225/make/cs225.mk', line 1)
+MAKEFILE_LIST :=  Makefile cs225/make/cs225.mk
+# makefile (from `cs225/make/cs225.mk', line 30)
+CXXFLAGS = $(CS225) -std=c++1y -stdlib=libc++ -O0 $(WARNINGS) $(DEPFILE_FLAGS) -g -c
+# makefile (from `cs225/make/cs225.mk', line 70)
+CPP_TEST = $(wildcard tests/*.cpp) cs225/catch/catchmain.cpp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/7t/dm_yvhx96_vdflkqpf_hsdpw0000gn/T/vscode-ipc-e2315b47-1b20-48eb-a5c3-e211183ba739.sock
+# environment
+VSCODE_CWD = /
+# environment
+NO_PROXY = 127.0.0.1
+# makefile (from `cs225/make/cs225.mk', line 14)
+LD = clang++
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+LaunchInstanceID = 7C237545-ECA7-463E-92A2-237E88FE51DB
+# makefile (from `Makefile', line 4)
+EXE_OBJ = main.o
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `cs225/make/cs225.mk', line 33)
+LDFLAGS = $(CS225) -std=c++1y -stdlib=libc++ -lc++abi
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.kLr6LVIvmP/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.Hwm8PRhBxl/org.xquartz:0
+# makefile (from `cs225/make/cs225.mk', line 85)
+ccred = $(shell echo -e "\033[0;31m")
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `cs225/make/cs225.mk', line 24)
+DEPFILE_FLAGS = -MMD -MP
+# makefile (from `Makefile', line 5)
+OBJS = Graph.o main.o
+# environment
+PWD = /Users/yumingxuanguo/GitHub/Open-Flights
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/yumingxuanguo
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/yumingxuanguo/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = yumingxuanguo
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/yumingxuanguo/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 2)
+TEST = test
+# environment
+PLATFORMIO_PATH = /Users/yumingxuanguo/.platformio/python3/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Library/Apple/usr/bin://Library/Developer/Panda3D/bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Library/Apple/usr/bin://Library/Developer/Panda3D/bin
+# environment
+SHLVL = 1
+# environment
+XPC_FLAGS = 0x0
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk/Contents/Home
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = yumingxuanguo
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `cs225/make/cs225.mk', line 87)
+ccend = $(shell echo -e "\033[0m")
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/7t/dm_yvhx96_vdflkqpf_hsdpw0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/yumingxuanguo/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.22575708.22575715
+# makefile (from `cs225/make/cs225.mk', line 15)
+OBJS_DIR = .objs
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# makefile (from `cs225/make/cs225.mk', line 97)
+CLANG_VERSION_MSG = $(warning $(ccyellow) Looks like you are not on EWS. Be sure to test on EWS before the deadline. $(ccend))
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `cs225/make/cs225.mk', line 90)
+IS_CORRECT_CLANG = $(shell clang -v 2>&1 | grep "version 6")
+# default
+MAKEFILES := 
+# makefile (from `cs225/make/cs225.mk', line 27)
+WARNINGS = -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from `cs225/make/cs225.mk', line 13)
+CXX = clang++
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186b3
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `cs225/make/cs225.mk', line 71)
+OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
+# makefile (from `cs225/make/cs225.mk', line 89)
+IS_EWS = $(shell hostname | grep "ews.illinois.edu") 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 601
+# variable set hash-table stats:
+# Load=98/1024=10%, Rehash=0, Collisions=15/173=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 23817033): 22 files, no impossibilities.
+# .objs: could not be stat'd.
+# .objs/cs225: could not be stat'd.
+# .objs/cs225/lodepng: could not be stat'd.
+# .objs/cs225/catch: could not be stat'd.
+# .objs/tests: could not be stat'd.
+# tests (device 16777233, inode 23817095): 3 files, no impossibilities.
+
+# 25 files, no impossibilities in 7 directories.
+
+# Implicit Rules
+
+.objs/%.o: %.cpp | .objs
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+output_msg:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := output_msg
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/17=24%
+#  commands to execute (from `cs225/make/cs225.mk', line 101):
+	$(CLANG_VERSION_MSG)
+	
+
+# Not a target:
+.objs/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.objs/main.o:
+#  Implicit rule search has not been done.
+ 
+cs225/make/cs225.mk:101: -e [0;33m Looks like you are not on EWS. Be sure to test on EWS before the deadline. -e [0m
+
+#  Modification time never checked.
+#  File has not been updated.
+
+all: main
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+
+.PHONY: all tidy clean output_msg
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/cs225/lodepng/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.objs/cs225/catch/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.objs/tests/test.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Graph.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-12 20:44:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-12 20:44:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: output_msg .objs/Graph.o .objs/tests/test.o .objs/cs225/catch/catchmain.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 74):
+	$(LD) $(filter-out $<, $^) $(LDFLAGS) -o $@
+	
+
+.objs:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .objs
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/19=5%
+#  commands to execute (from `cs225/make/cs225.mk', line 46):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(OBJS_DIR)/cs225
+	@mkdir -p $(OBJS_DIR)/cs225/catch
+	@mkdir -p $(OBJS_DIR)/cs225/lodepng
+	@mkdir -p $(OBJS_DIR)/tests
+	@mkdir -p $(OBJS_DIR)/imageTraversal
+	@mkdir -p $(OBJS_DIR)/colorPicker
+	@mkdir -p $(OBJS_DIR)/cs225/ColorSpace
+	@mkdir -p $(OBJS_DIR)/util
+	
+
+# Not a target:
+.objs/cs225/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 105):
+	rm -rf $(EXE) $(TEST) $(OBJS_DIR) $(CLEAN_RM) *.o *.d
+	
+
+tidy: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `cs225/make/cs225.mk', line 108):
+	rm -rf doc
+	
+
+main: output_msg .objs/Graph.o .objs/main.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 42):
+	$(LD) $(filter-out $<, $^) $(LDFLAGS) -o $@
+	
+
+.objs/Graph.o: Graph.cpp | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Graph'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+#  commands to execute (from `cs225/make/cs225.mk', line 62):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# Not a target:
+.objs/cs225/catch/catchmain.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/tests/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+cs225/make/cs225.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-12 20:44:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/61=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 7
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3979 / max = 3979 / min = 3979 / avg = 3979
+
+# Finished Make data base on Fri Jul  8 08:08:34 2022
+
+ 

@@ -1,0 +1,17 @@
+make: Entering directory `/Users/yumingxuanguo/GitHub/Open-Flights'
+mkdir -p .objs
+mkdir -p .objs/cs225
+mkdir -p .objs/cs225/catch
+mkdir -p .objs/cs225/lodepng
+mkdir -p .objs/tests
+mkdir -p .objs/imageTraversal
+mkdir -p .objs/colorPicker
+mkdir -p .objs/cs225/ColorSpace
+mkdir -p .objs/util
+clang++  -std=c++1y -stdlib=libc++ -O0 -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -MMD -MP -g -c Graph.cpp -o .objs/Graph.o
+clang++  -std=c++1y -stdlib=libc++ -O0 -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -MMD -MP -g -c main.cpp -o .objs/main.o
+clang++ .objs/Graph.o .objs/main.o  -std=c++1y -stdlib=libc++ -lc++abi -o main
+make: Leaving directory `/Users/yumingxuanguo/GitHub/Open-Flights'
+ 
+cs225/make/cs225.mk:101: -e [0;33m Looks like you are not on EWS. Be sure to test on EWS before the deadline. -e [0m
+
